@@ -48,21 +48,6 @@ body{
 
 }
 
-.apresentacao_conteudo_curriculo{
-    display: flex;
-        justify-content: center;
-        gap: 16px;
-        width: 378px;
-        font-weight: 600;
-        text-align: center;
-        border-radius: 8px;
-        font-size: 24px;
-        padding: 21.5px;
-        text-decoration: none;
-        color:var(--cor-secundaria);
-        border: 2px solid var(--cor-terciaria);
-        font-family:var(--font-secundaria)
-}
 
 .apresentacao_curriculo {
     font-family: var(--font-secundaria);
@@ -77,6 +62,9 @@ body{
 .paragrafos_cursos{
     font-family: var(--font-secundaria);
     font-size: 26px;
+}
+strong{
+    color: #22d4fd;
 }
 
 
