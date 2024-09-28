@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --cor-primaria:#000000;
+    --cor-secundaria:#f6f6f6;
+    --cor-terciaria:#22d4fd;
+    --cor-hover:#272727;
+
+    --font-primaria:"Krona One", sans-serif;
+    --font-secundaria:"Montserrat", sans-serif;
+}
+
+.cabecalho_menu {
+
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho_menu_link{
+    font-family:var(--font-secundaria);
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}    
+.cabecalho_menu_link:hover {
+    background-color:var(--cor-hover);
+    transform: scale(1.05);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color:var(--cor-primaria);
+    color: var(--cor-secundaria)
+}
+
+.apresentacao_titulo_curriculo{
+    font-family:var(--font-primaria);
+    font-size: 50px;
+    padding: 20px;
+
+}
+
+.apresentacao_conteudo_curriculo{
+    display: flex;
+        justify-content: center;
+        gap: 16px;
+        width: 378px;
+        font-weight: 600;
+        text-align: center;
+        border-radius: 8px;
+        font-size: 24px;
+        padding: 21.5px;
+        text-decoration: none;
+        color:var(--cor-secundaria);
+        border: 2px solid var(--cor-terciaria);
+        font-family:var(--font-secundaria)
+}
+
+.apresentacao_curriculo {
+    font-family: var(--font-secundaria);
+    font-size: 26px;
+}
+.apresentacao_conteudo {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.paragrafos_cursos{
+    font-family: var(--font-secundaria);
+    font-size: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rodape {
+    padding: 24px;
+    color:var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    text-align: center;
+    font-family:var(--font-secundaria);
+    font-size: 24px;
+    font-weight: 400px; }

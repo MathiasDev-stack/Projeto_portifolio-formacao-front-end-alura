@@ -90,22 +90,14 @@ body{
     .apresentacao__links__link:hover {
         background-color:var(--cor-hover);
     }
+     
+    .cabecalho {
 
-    .rodape {
-        padding: 24px;
-        color:var(--cor-primaria);
-        background-color: var(--cor-terciaria);
-        text-align: center;
-        font-family:var(--font-secundaria);
-        font-size: 24px;
-        font-weight: 400px;
+        padding: 2% 0% 0% 15%; 
 
-        .cabecalho {
-
-         padding: 2% 0% 0% 15%; 
-
-        }
-    }
+       }
+     
+    
     .cabecalho_menu {
 
         display: flex;
@@ -123,3 +115,12 @@ body{
         background-color:var(--cor-hover);
         transform: scale(1.05);
     }
+
+    .rodape {
+        padding: 24px;
+        color:var(--cor-primaria);
+        background-color: var(--cor-terciaria);
+        text-align: center;
+        font-family:var(--font-secundaria);
+        font-size: 24px;
+        font-weight: 400px; }
