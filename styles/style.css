@@ -82,6 +82,11 @@ body{
         font-family: "Montserrat", sans-serif;
   
     }
+    .apresentacao__links__link:hover {
+        background-color: #272727;
+        /* background-color: #22D4FD; */
+    }
+
     .rodape {
         padding: 24px;
         color: black;
@@ -90,6 +95,23 @@ body{
         font-family: "montserrat",sans-serif;
         font-size: 24px;
         font-weight: 400px;
+
+        .cabecalho {
+
+         padding: 2% 0% 0% 15%; 
+
+        }
+    }
+    .cabecalho_menu {
+
+        display: flex;
+        gap: 80px;
     }
 
-    
+    .cabecalho_menu_link{
+        font-family:"montserrat",sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        color: #22D4FD;
+        text-decoration: none;
+    }    
