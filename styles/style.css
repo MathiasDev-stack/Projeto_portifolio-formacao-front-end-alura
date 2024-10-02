@@ -103,6 +103,13 @@ body{
         font-family:var(--font-secundaria)
         
     }
+
+
+    .aviso_projeto{
+        padding: 100px;
+        text-align: center;
+        color: red;
+    }
     .apresentacao__links__link:hover {
         background-color:var(--cor-hover);
     }
