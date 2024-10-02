@@ -39,6 +39,16 @@ body{
     height: 550px;
     top: 235;
     left: 1030;
+    padding-left: 50px;
+    
+    }
+    .outra-imagem{
+        width: 488px;
+    height: 550px;
+    top: 235;
+    left: 1030;
+    padding-left: 300px;
+
     }
         
 
@@ -87,6 +97,12 @@ body{
         font-family:var(--font-secundaria)
   
     }
+
+
+    .paragrafo_curso {
+        font-family:var(--font-secundaria)
+        
+    }
     .apresentacao__links__link:hover {
         background-color:var(--cor-hover);
     }
@@ -124,3 +140,7 @@ body{
         font-family:var(--font-secundaria);
         font-size: 24px;
         font-weight: 400px; }
+
+        strong{
+            color: #22d4fd;
+        }
